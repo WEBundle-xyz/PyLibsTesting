@@ -10,6 +10,8 @@ pandas = "*"
 scipy = "*"
 pillow = "*"
 rich = "*"
+pycodestyle = "*"
+pep8 = "*"
 
 [dev-packages]
 

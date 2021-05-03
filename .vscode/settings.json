@@ -2,6 +2,9 @@
         "python.pythonPath": "/Users/stefangriffin/.local/share/virtualenvs/pylibstesting-V-KLznHy/bin/python",
         "python.languageServer": "Pylance",
         "python.linting.enabled": true,
+        "python.linting.pep8Enabled": true,
+        "python.linting.pylintEnabled": true,
+        "python.linting.pydocstyleArgs": ["--ignore=D400"],
         "files.associations": {
                 "**/*.html": "html",
                 "**/requirements{/**,*}.{txt,in}": "pip-requirements"
