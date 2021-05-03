@@ -6,7 +6,11 @@ from rich import print
 
 print("_"*40)
 
-data = pd.Series(np.random.rand(1000))
-bootstrap_plot(data, size=50, samples=500, color="grey")
+dev_x = [25, 26, 27, 27, 29, 34, 38]
+dev_y = [3489, 3495, 4323, 5432, 6543, 7654, 8763]
+
+plt.plot(dev_x, dev_y)
+
+plt.show()
 
 print("_"*40)
