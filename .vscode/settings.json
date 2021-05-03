@@ -1,0 +1,11 @@
+{
+        "python.pythonPath": "/Users/stefangriffin/.local/share/virtualenvs/pylibstesting-V-KLznHy/bin/python",
+        "python.languageServer": "Pylance",
+        "python.linting.enabled": true,
+        "files.associations": {
+                "**/*.html": "html",
+                "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+            },
+
+
+}
